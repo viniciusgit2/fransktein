@@ -14,7 +14,7 @@
     "build2": "./node_modules/.bin/babel --out-dir lib src",
     "build3": "./node_modules/.bin/webpack --output-filename  music.umd.js --mode=production ",
     "build4": "./node_modules/.bin/webpack --output-filename  music.umd.min.js --mode=production ",
-    "build5": "yarn build2 && yarn build3 && yarn build4",
+    "build5": "npm run build2 && npm run build3 && npm run build4",
     "build6": "./node_modules/.bin/webpack server --mode=development ",
     "clear": "rimraf lib && rimraf node_modules",
     "tdd": "./node_modules/.bin/mocha /**/* src/mocha/testes/.spec.js --watch"
