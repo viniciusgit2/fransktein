@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>varias promisses</title>
+  </head>
+
+  <body>
+    <script>
+      console.log("estou bem em 12/2022?");
+      var saude = new Promise((resolve, reject) => {
+        if (true) {
+          resolve("garganta,olho");
+        } else reject("erro");
+      });
+      saude.then((saude = console.log(saude)));
+      console.log("algo mais?");
+      var temperatura = new Promise((resolve, reject) => {
+        if (true) {
+          resolve("bastante frio");
+        } else reject("erro");
+      });
+      console.log(temperatura);
+      console.log("pelo menos a maquina?");
+
+      var pc = new Promise((resolve, reject) => {
+        if (true) {
+          resolve("sim,está otimo");
+        } else reject("erro");
+      });
+      console.log(pc);
+    </script>
+  </body>
+</html>

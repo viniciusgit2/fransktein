@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>aSync/await</title>
+  </head>
+
+  <body>
+    <script>
+      function post() {
+        return fetch(`https://willianjusten.com.br/search.json`)
+          .then((data) => data.json())
+          .then((data) =>
+            data.map((post) => {
+              console.log(post.title);
+            })
+          );
+      }
+      //nao encotrei se encotrar botar o link certo
+      post();
+    </script>
+  </body>
+</html>
