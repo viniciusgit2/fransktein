@@ -18,7 +18,7 @@
     "webservedev": "./node_modules/.bin/webpack server --mode=development ",
     "clear": "rimraf lib && rimraf node_modules",
     "build:dev": "webpack --mode=development",
-    "tdd": "./node_modules/.bin/mocha /**/*.spec.js --require babel-register --watch"
+    "tdd": "./node_modules/.bin/babel  --watch --out-dir src/**  "
   },
   "dependencies": {
     "@types/node": "18.16.1",
