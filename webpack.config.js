@@ -36,7 +36,11 @@ const config = {
       },
       {
         test: /\.css$/i,
-        use: [stylesHandler, "css-loader", "postcss-loader"],
+        use: [stylesHandler, "css-loader"],
+      },
+      {
+        test: /\.less$/i,
+        use: [stylesHandler, "css-loader", "less-loader"],
       },
       {
         test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif)$/i,
