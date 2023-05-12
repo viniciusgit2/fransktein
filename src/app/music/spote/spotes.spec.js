@@ -1,7 +1,7 @@
-
+import {spotes} from "wrapped-spotify"
 import { describe, it } from "node:test"
 import {expect} from "chai"
-import { spotes } from "./spotes"
+
 describe(`spotes,(should be an object)`,()=>expect('spotes').to.be.on.object
 
 )

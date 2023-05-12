@@ -3082,6 +3082,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"axios@npm:^0.24.0":
+  version: 0.24.0
+  resolution: "axios@npm:0.24.0"
+  dependencies:
+    follow-redirects: ^1.14.4
+  checksum: 468cf496c08a6aadfb7e699bebdac02851e3043d4e7d282350804ea8900e30d368daa6e3cd4ab83b8ddb5a3b1e17a5a21ada13fc9cebd27b74828f47a4236316
+  languageName: node
+  linkType: hard
+
 "axobject-query@npm:^3.1.1":
   version: 3.1.1
   resolution: "axobject-query@npm:3.1.1"
@@ -6114,7 +6123,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.0.0":
+"follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.14.4":
   version: 1.15.2
   resolution: "follow-redirects@npm:1.15.2"
   peerDependenciesMeta:
@@ -7867,6 +7876,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jsdom-global@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "jsdom-global@npm:3.0.2"
+  peerDependencies:
+    jsdom: ">=10.0.0"
+  checksum: 5c665a412c244d8cfe541da784ff6888c0ed041da3f4c03d7d4ab514215b3f50a934f89c33b543b7848765d841029978a2592dc04b2e0a8734b4bb54809e67d7
+  languageName: node
+  linkType: hard
+
 "jsesc@npm:^1.3.0":
   version: 1.3.0
   resolution: "jsesc@npm:1.3.0"
@@ -8840,6 +8858,7 @@ __metadata:
     eslint: 8.39.0
     eslint-config-next: 13.3.1
     html-webpack-plugin: ^5.5.1
+    jsdom-global: ^3.0.2
     less: ^4.1.3
     less-loader: ^11.1.0
     mini-css-extract-plugin: ^2.7.5
@@ -8858,6 +8877,7 @@ __metadata:
     webpack-cli: ^5.1.1
     webpack-dev-server: ^4.15.0
     workbox-webpack-plugin: ^6.5.4
+    wrapped-spotify: ^1.0.12
   languageName: unknown
   linkType: soft
 
@@ -12927,6 +12947,15 @@ __metadata:
     string-width: ^5.0.1
     strip-ansi: ^7.0.1
   checksum: 371733296dc2d616900ce15a0049dca0ef67597d6394c57347ba334393599e800bab03c41d4d45221b6bc967b8c453ec3ae4749eff3894202d16800fdfe0e238
+  languageName: node
+  linkType: hard
+
+"wrapped-spotify@npm:^1.0.12":
+  version: 1.0.12
+  resolution: "wrapped-spotify@npm:1.0.12"
+  dependencies:
+    axios: ^0.24.0
+  checksum: f89edab50dd0a31c7a30146442aa2e4fd1882589ed98502bda6be7a92c0664b799bb4a406a9c6f2d352a5939e183fb65e90466678d342a4e64e7789317f0da17
   languageName: node
   linkType: hard
 

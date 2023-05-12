@@ -1,3 +1,4 @@
+import jsdomGlobal from "jsdom-global";
 import { expect, should } from "chai";
 import { describe, it } from "node:test";
 import renderalbum from  "albumlist"
@@ -61,3 +62,6 @@ const markup=`<div class="list">
   </div>
 </div>`
 it (` should create and markup given and correct data`)
+const element=document.createElement(`div`)
+renderalbum(data,element)
+expect(element,innerhtml).to.be.eql(markup)
