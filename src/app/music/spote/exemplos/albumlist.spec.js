@@ -1,11 +1,11 @@
-import { expect } from "chai";
-import { describe } from "node:test";
+import { expect, should } from "chai";
+import { describe, it } from "node:test";
 import renderalbum from  "albumlist"
 describe(`albumlist`,()=>{
 it (`should exist`,()=>{
 expect (renderalbum).to.exist
-})
-const data= ({
+})})
+const data=[{
     "href": "https://api.spotify.com/v1/albums/0rrO5LP57BRNfuzOYTU5Mh",
     "id": "0rrO5LP57BRNfuzOYTU5Mh",
     "images": [
@@ -15,11 +15,13 @@ const data= ({
         "height": 640,
         "width": 640
       },
+  
       {
         "url": "https://i.scdn.co/image/ab67616d00001e0274b66c00ee25521b978a4514",
         "height": 300,
         "width": 300
       },
+    
       {
         "url": "https://i.scdn.co/image/ab67616d0000485174b66c00ee25521b978a4514",
         "height": 64,
@@ -44,11 +46,11 @@ const data= ({
         "uri": "spotify:artist:1EUzhuUomflz3o0BrfZnGn"
 
     }
-    ]
-}
-)
-}
- 
-  
+    ],
 
-)
+
+} 
+]
+
+const markup=``
+it (` should create and markup given and correct data`)
