@@ -52,5 +52,12 @@ const data=[{
 } 
 ]
 
-const markup=``
+const markup=`<div class="list">
+<div class="list-item">
+  <img src="https://i.scdn.co/image/a13aadb368a956be48fe9089acb64333f0c0ca40" alt="" class="list-image">
+  <div class="list-description">
+    <p class="list-title">Make Yourself</p>
+    <p class="list-subtitle">Incubus</p>
+  </div>
+</div>`
 it (` should create and markup given and correct data`)
